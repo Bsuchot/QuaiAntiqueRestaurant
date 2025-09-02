@@ -12074,4 +12074,10 @@ footer.footer {
   height: 100%;
   display: flex;
   align-items: center;
+}
+
+.allreservations a {
+  display: block;
+  color: #292222;
+  padding: 10px;
 }/*# sourceMappingURL=main.css.map */
