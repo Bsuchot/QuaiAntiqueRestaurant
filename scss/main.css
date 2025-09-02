@@ -11981,7 +11981,7 @@ html {
 }
 
 main {
-  margin-bottom: 250px;
+  margin-bottom: 270px;
 }
 
 footer.footer {
@@ -11993,6 +11993,7 @@ footer.footer {
 
 .hero-scene {
   position: relative;
+  margin-bottom: 15px;
 }
 .hero-scene::before {
   content: "";
@@ -12041,11 +12042,22 @@ footer.footer {
   transition: all 0.3s;
 }
 
-.carousel-buttons {
-  position: absolute;
-  top: 50%;
+.form-label {
+  color: #906427;
+}
+
+.choix {
+  position: relative;
+  top: 10px;
   width: 100%;
+  height: 30px;
+  margin-bottom: 0%;
+}
+.choix .bg-tertiary {
+  background-color: rgba(144, 100, 39, 0.3294117647);
+}
+.choix .row {
+  height: 100%;
   display: flex;
-  justify-content: space-between;
-  transform: translateY(-50%);
+  align-items: center;
 }/*# sourceMappingURL=main.css.map */
